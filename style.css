@@ -151,7 +151,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
-    color: #8511b4;
+    color: #000000c4;
     margin-bottom: 5%;
     margin-top: 5%;
     position: relative;
@@ -192,7 +192,7 @@ body {
     -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     color: #fff;
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 1rem;
 }
 
