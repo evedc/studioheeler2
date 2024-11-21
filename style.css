@@ -105,6 +105,11 @@ body {
 
     }
 
+    .menu a {
+        color: #ffffffcf;
+        text-decoration: none;
+    }
+
     .menu ul {
         flex-direction: column;
     }
@@ -185,16 +190,19 @@ body {
 }
 
 .image-box {
-    margin-top: 5%;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    border: 1px solid red;
 
 }
 
 .image-box img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     position: absolute;
