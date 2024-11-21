@@ -147,7 +147,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     text-align: center;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
@@ -210,13 +210,13 @@ body {
     justify-content: center;
     margin-top: 10%;
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 }
 
 .image-box img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     position: absolute;
