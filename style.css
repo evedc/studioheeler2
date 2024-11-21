@@ -20,7 +20,6 @@ header {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
 }
 
 .title-box {
@@ -36,12 +35,13 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     text-align: center;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
     color: #8511b4;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .title-box p {
@@ -54,7 +54,7 @@ header {
     font-weight: 300;
     text-align: center;
     color: #000000bd;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .btn-contato {
@@ -73,5 +73,23 @@ header {
 
 .btn-contato:hover {
     cursor: pointer;
-    opacity: 0.8;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #8511b4;
+    box-shadow: none;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 80%;
+    object-fit: cover;
 }
