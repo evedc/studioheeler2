@@ -9,11 +9,104 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*
-nav{}
-*/
+/* Estilo base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-header {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.hamburger {
+    display: none;
+    /* Esconde no desktop */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background: #8511b4;
+    border-radius: 2px;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para mobile */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #8511b4;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .menu.active {
+        display: flex;
+
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+
+    }
+}
+
+.container-macro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +173,18 @@ header {
 }
 
 .image-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     margin-top: 5%;
+    width: 80%;
+    height: 100vh;
     overflow: hidden;
+    position: relative;
+
 }
 
 .image-box img {
-    width: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    position: absolute;
+
 }
