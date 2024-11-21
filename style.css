@@ -152,7 +152,7 @@ body {
     font-family: "Poppins", serif;
     color: #8511b4;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
     position: relative;
 
 }
@@ -215,7 +215,7 @@ body {
 }
 
 .image-box img {
-    width: 80%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
     position: absolute;
