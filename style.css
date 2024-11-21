@@ -146,13 +146,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     text-align: center;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
     color: #8511b4;
     margin-bottom: 5%;
     margin-top: 5%;
+    position: relative;
+
+}
+
+.title-box h1::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #00ff66;
+    margin: 0px auto 0;
+    border-radius: 2px;
+
 }
 
 .title-box p {
@@ -183,6 +196,7 @@ body {
 }
 
 .btn-contato:hover {
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
     background-color: transparent;
     color: #000;
