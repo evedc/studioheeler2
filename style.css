@@ -155,6 +155,10 @@ body {
     margin-bottom: 5%;
     margin-top: 5%;
     position: relative;
+    transform: translateY(-20px);
+    /* Começa levemente acima */
+    transition: opacity 1s ease, transform 1s ease;
+    /* Animação de entrada */
 
 }
 
@@ -213,6 +217,15 @@ body {
     height: 400px;
     overflow: hidden;
     position: relative;
+    transform: translateX(-100%);
+    transition: transform 1s ease;
+
+}
+
+.image-box.active,
+.title-box h1 {
+    transform: translateX(0);
+
 }
 
 .image-box img {
@@ -220,5 +233,4 @@ body {
     height: 100%;
     object-fit: cover;
     position: absolute;
-
 }
