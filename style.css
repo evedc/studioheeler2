@@ -156,10 +156,7 @@ body {
     margin-top: 5%;
     position: relative;
     transform: translateY(-20px);
-    /* Começa levemente acima */
     transition: opacity 1s ease, transform 1s ease;
-    /* Animação de entrada */
-
 }
 
 .title-box h1::after {
