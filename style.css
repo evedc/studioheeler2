@@ -3,6 +3,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
 }
 
 body {
@@ -25,10 +26,9 @@ body {
     height: 50px;
 }
 
-/* Botão hambúrguer estilizado */
+
 .hamburger {
     display: none;
-    /* Esconde no desktop */
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
@@ -230,4 +230,34 @@ body {
     height: 100%;
     object-fit: cover;
     position: absolute;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sobre-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #faeeffa9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sobre-box h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.sobre-box p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
 }
