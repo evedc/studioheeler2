@@ -289,7 +289,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     padding: 20px;
 }
 
