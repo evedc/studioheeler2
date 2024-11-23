@@ -284,3 +284,26 @@ body {
 span {
     color: #8511b4;
 }
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    color: #000000ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
