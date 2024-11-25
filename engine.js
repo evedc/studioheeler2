@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
 
 window.sr = ScrollReveal({ reset: true });
 
-ScrollReveal().reveal('.title-box', { duration: 2000 });
+ScrollReveal().reveal('.title-box', { duration: 2000, rotate: { x: 0, y: 80, z: 0 } });
 ScrollReveal().reveal('.image-box', { duration: 2000 });
 ScrollReveal().reveal('.grid-item', { duration: 2000 });
 ScrollReveal().reveal('.title-container', { duration: 2000 });
