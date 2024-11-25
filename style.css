@@ -186,7 +186,7 @@ body {
 .btn-contato {
     width: 200px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 8px;
     border: none;
     background-color: #005F73;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -281,8 +281,22 @@ body {
     color: #495057;
 }
 
+.title-servicos2 {
+    font-size: 1.625rem;
+    font-weight: 700;
+    text-align: center;
+    width: 70%;
+    color: #005F73;
+}
+
+
+
 span {
     color: #005F73;
+}
+
+span2 {
+    color: #0A9396;
 }
 
 .grid-container {
@@ -340,14 +354,16 @@ span {
     font-size: 1rem;
     width: 80%;
     text-align: center;
+    color: #495057;
+    line-height: 1.5;
 }
 
 .btn-contato2 {
     width: 200px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 8px;
     border: none;
-    background-color: #8511b4;
+    background-color: #005F73;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -360,7 +376,7 @@ span {
     cursor: pointer;
     background-color: transparent;
     color: #000;
-    border: 1px solid #8511b4;
+    border: 1px solid #005F73;
     box-shadow: none;
 }
 
@@ -397,12 +413,17 @@ span {
 }
 
 .grid-item2 h2 {
-    font-size: 1rem;
     margin-top: 5px;
+    font-size: 1.25rem;
+    color: #005F73;
+    font-weight: 600;
 }
 
+
 .grid-item2 p {
+    margin-top: 5px;
+    margin-bottom: 15px;
     font-size: 1rem;
+    color: #495057;
     width: 60%;
-    padding: 5px;
 }
