@@ -333,7 +333,6 @@ span2 {
     }
 }
 
-
 .grid-item {
     display: flex;
     flex-direction: column;
@@ -344,18 +343,17 @@ span2 {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    /* Começa invisível */
     transform: translateX(100%);
-    /* Começa fora da tela à direita */
+    /* Começa fora da tela */
     transition: opacity 1s ease, transform 1s ease;
-    /* Transições suaves */
 }
+
 
 .grid-item.visible {
     opacity: 1;
     /* Torna o item visível */
     transform: translateX(0);
-    /* Move o item para a posição final */
+    /* Move o item para sua posição */
 }
 
 .grid-item:nth-child(1) {

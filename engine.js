@@ -27,3 +27,12 @@ const items = document.querySelectorAll('.grid-item');
 items.forEach(item => {
     observer.observe(item); // Inicia a observação para cada item
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+    const gridItems = document.querySelectorAll('.grid-item');
+    gridItems.forEach((item, index) => {
+        setTimeout(() => {
+            item.classList.add('visible');
+        }, 300 * index); // Atraso para cada item da grade
+    });
+});
