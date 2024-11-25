@@ -7,22 +7,15 @@ hamburger.addEventListener('click', () => {
 });
 
 // efeito box imagem
-window.addEventListener('load', () => {
-    const imageBox = document.querySelector('.image-box');
-    const titleBox = document.querySelector('.title-box');
+document.addEventListener('scroll', () => {
+    const titleBox = document.getElementById('title-box');
+    const titleBoxPosition = titleBox.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
 
-    setTimeout(() => {
-        imageBox.classList.add('active');
+    // Quando a title-box estiver visível pela primeira vez na tela
+    if (titleBoxPosition <= windowHeight) {
         titleBox.classList.add('active');
-    }, 500);
-});
-
-// Efeito de transição para a title-box ao rolar a página
-const titleBox = document.querySelector('.title-box');
-
-window.addEventListener('scroll', () => {
-    // Verifica se a title-box está na área visível da tela e se a classe 'visible' não foi adicionada ainda
-    if (window.scrollY > titleBox.offsetTop - window.innerHeight) {
-        titleBox.classList.add('visible');
+        // Remove o evento de rolagem após a primeira vez
+        window.removeEventListener('scroll', arguments.callee);
     }
 });
