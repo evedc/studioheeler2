@@ -142,9 +142,15 @@ body {
     align-items: center;
     width: 100%;
     position: relative;
-
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
+.container-macro .title-box.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .title-box h1 {
     display: flex;
