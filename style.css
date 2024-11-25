@@ -142,17 +142,9 @@ body {
     align-items: center;
     width: 100%;
     position: relative;
-    opacity: 0;
-    transform: translateY(20px);
-    /* Adiciona uma leve transformação para o efeito */
-    transition: opacity 1s ease, transform 1s ease;
+
 }
 
-.title-box.active {
-    opacity: 1;
-    transform: translateY(0);
-    /* Remove a transformação para o efeito de "voltar ao normal" */
-}
 
 .title-box h1 {
     display: flex;
@@ -213,15 +205,10 @@ body {
     height: 380px;
     overflow: hidden;
     position: relative;
-    transform: translateX(-100%);
-    transition: transform 1s ease;
+
 
 }
 
-.image-box.active {
-    transform: translateX(0);
-
-}
 
 .image-box img {
     width: 80%;
