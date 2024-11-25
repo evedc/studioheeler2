@@ -6,3 +6,12 @@ hamburger.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 
+window.sr = ScrollReveal({ reset: true });
+
+ScrollReveal().reveal('.title-box', { duration: 2000 });
+ScrollReveal().reveal('.image-box', { duration: 2000 });
+ScrollReveal().reveal('.grid-item', { duration: 2000 });
+ScrollReveal().reveal('.title-container', { duration: 2000 });
+ScrollReveal().reveal('.funcoes-container', { duration: 2000 });
+ScrollReveal().reveal('.grid-item2', { duration: 2000 });
+ScrollReveal().reveal('.vendas-container', { duration: 2000 });

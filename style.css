@@ -454,3 +454,13 @@ span2 {
     line-height: 1.5;
     font-weight: 600;
 }
+
+.title-box,
+.image-box,
+.grid-item,
+.title-container,
+.funcoes-container,
+.grid-item2,
+.vendas-container {
+    visibility: collapse;
+}
