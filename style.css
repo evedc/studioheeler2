@@ -139,13 +139,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    /* Ajuste o tamanho conforme necessário */
+    width: 90%;
     opacity: 0;
     transform: translateX(-100%);
-    /* Começa fora da tela à esquerda */
     animation: slideIn 1s forwards;
-    /* A animação começa imediatamente */
+
 }
 
 @keyframes slideIn {
@@ -172,7 +170,7 @@ p,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     text-align: left;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
@@ -189,7 +187,7 @@ p,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     font-family: "Poppins", serif;
     font-weight: 300;
     text-align: left;
