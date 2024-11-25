@@ -319,10 +319,6 @@ span2 {
     gap: 20px;
     width: 80%;
     padding: 20px;
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slideIn 1s forwards;
-    /* Animação para a grid */
 }
 
 @keyframes slideIn {
@@ -337,6 +333,7 @@ span2 {
     }
 }
 
+
 .grid-item {
     display: flex;
     flex-direction: column;
@@ -347,8 +344,18 @@ span2 {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    transform: translateX(-100%);
-    animation: slideItemIn 1s forwards;
+    /* Começa invisível */
+    transform: translateX(100%);
+    /* Começa fora da tela à direita */
+    transition: opacity 1s ease, transform 1s ease;
+    /* Transições suaves */
+}
+
+.grid-item.visible {
+    opacity: 1;
+    /* Torna o item visível */
+    transform: translateX(0);
+    /* Move o item para a posição final */
 }
 
 .grid-item:nth-child(1) {
