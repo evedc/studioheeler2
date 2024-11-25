@@ -23,7 +23,7 @@ body {
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
 }
 
 
@@ -93,7 +93,7 @@ body {
     .menu {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 90px;
         right: 0;
         background-color: #94D2BD;
         flex-direction: column;
@@ -147,27 +147,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 70%;
     text-align: center;
     font-size: 2.5rem;
     font-family: "Poppins", serif;
     color: #005F73;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
     position: relative;
     transform: translateY(-20px);
     transition: opacity 1s ease, transform 1s ease;
-}
-
-.title-box h1::after {
-    content: '';
-    display: block;
-    width: 50%;
-    height: 4px;
-    background-color: #0A9396;
-    margin: 0px auto 0;
-    border-radius: 2px;
-
 }
 
 .title-box p {
