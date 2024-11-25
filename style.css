@@ -139,7 +139,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    /* Ajuste o tamanho conforme necessário */
+    opacity: 0;
+    transform: translateX(-100%);
+    /* Começa fora da tela à esquerda */
+    animation: slideIn 1s forwards;
+    /* A animação começa imediatamente */
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+h1,
+p,
+.btn-contato {
+    text-align: center;
+    margin: 10px 0;
 }
 
 .title-box h1 {
