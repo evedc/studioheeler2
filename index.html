@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midia.queries.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Heeler</title>
 </head>
 
 <body>
-
-    <header class="navbar">
+    <!--mobile-->
+    <div class="navbar-mobile">
         <div class="logo">
             <img src="./images/logo.png" alt="Logo">
         </div>
@@ -28,7 +29,26 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+    <!--desktop-->
+    <div class="navbar-desktop">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <section class="container-macro">
         <div class="title-box">
