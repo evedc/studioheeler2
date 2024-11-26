@@ -104,6 +104,10 @@
         font-size: 1.1rem;
     }
 
+    .title-container {
+        height: 400px;
+    }
+
     .title-servicos {
         width: 60%;
     }
@@ -136,10 +140,12 @@
         width: 20%;
     }
 
-    .vendas-container p {
+    .vendas-container {
+        height: 400px;
+    }
 
+    .vendas-container p {
         width: 30%;
         padding: 20px;
-
     }
 }
