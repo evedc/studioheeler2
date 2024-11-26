@@ -483,3 +483,42 @@ span2 {
     gap: 8px;
     padding: 20px;
 }
+
+.icons-redes a:hover {
+    -webkit-animation: swing 1s ease;
+    animation: anime-balanco 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes anime-balanco {
+    15% {
+        -webkit-transform: translateX(7px);
+        transform: translateX(7px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
