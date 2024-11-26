@@ -219,10 +219,11 @@ body::-webkit-scrollbar-thumb {
     height: 380px;
     overflow: hidden;
     position: relative;
-
-
 }
 
+.image-box2 {
+    display: none;
+}
 
 .image-box img {
     width: 80%;
