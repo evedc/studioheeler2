@@ -461,7 +461,8 @@ span2 {
 .title-container,
 .funcoes-container,
 .grid-item2,
-.vendas-container {
+.vendas-container,
+.contato-container {
     visibility: collapse;
 }
 
