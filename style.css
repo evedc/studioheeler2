@@ -533,8 +533,12 @@ span2 {
 
 .contato p {
     display: flex;
-    flex-direction: column;
     text-align: center;
+}
+
+.email,
+.tel {
+    padding: 5px;
 }
 
 footer {
