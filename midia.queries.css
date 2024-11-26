@@ -135,4 +135,11 @@
     .grid-item2 {
         width: 20%;
     }
+
+    .vendas-container p {
+
+        width: 30%;
+        padding: 20px;
+
+    }
 }
