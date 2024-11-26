@@ -464,3 +464,21 @@ span2 {
 .vendas-container {
     visibility: collapse;
 }
+
+.contato-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.icons-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+}
