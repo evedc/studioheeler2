@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb {
     padding: 10px 20px;
     background-color: #ffffff;
     color: #000000c6;
-
 }
 
 .logo img {
@@ -247,13 +246,14 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     width: 100%;
     padding: 20px;
-
+    background: linear-gradient(135deg, #005F73, #0A9396, #94D2BD);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .sobre-box h3 {
     font-size: 1.75;
     font-weight: 700;
-    color: #495057;
+    color: #fbfdffcb;
 }
 
 .sobre-box p {
@@ -436,8 +436,9 @@ span2 {
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-color: #94D2BD;
+    background: linear-gradient(135deg, #94D2BD, #E5E5E5, #BFD9CE);
     padding: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .title-vendas {
